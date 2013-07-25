@@ -2,6 +2,8 @@
 $lightGray: #999;
 $grayMediumLight: #eaeaea;
 $white: #fff;
+$grayDarker: #222;
+$gray: #555;
 
 
 /* universal */
@@ -79,12 +81,12 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid $grayMediumLight;
   color: $lightGray;
   a {
-    color: #555;
+    color: $gray;
     &:hover {
-      color: #222;
+      color: $grayDarker;
     }
   }
   small {
